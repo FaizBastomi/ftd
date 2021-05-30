@@ -11,4 +11,4 @@ echo "Now npm will install the needed modules"
 npm install
 rm install.sh
 
-echo "All done. Now type 'npm start' "
+echo "All done. Now type 'cd termux-fetish-download' then 'npm start' "
