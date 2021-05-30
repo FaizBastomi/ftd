@@ -1,0 +1,31 @@
+{
+  "name": "fetish-downloader",
+  "version": "0.0.2",
+  "description": "'fetish downloader'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaizBastomi/termux-fetish-download.git"
+  },
+  "keywords": [
+    "fetish",
+    "download",
+    "image",
+    "hentai"
+  ],
+  "author": "FaizBastomi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FaizBastomi/termux-fetish-download/issues"
+  },
+  "homepage": "https://github.com/FaizBastomi/termux-fetish-download#readme",
+  "dependencies": {
+    "file-type": "^16.5.0",
+    "moment-timezone": "^0.5.33",
+    "node-fetch": "^2.6.1"
+  }
+}

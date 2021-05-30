@@ -1,0 +1,11 @@
+# Modules
+node_modules/
+
+# Image test
+media/*.png
+media/*.jpeg
+media/*.jpg
+
+# Test Files
+tes.js
+tes-*.js
