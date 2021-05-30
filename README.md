@@ -4,9 +4,9 @@ Termux Fetish Downloader<br />
 Pick random image from subreddit.
 
 ## Installation
-```bash
+```shell
 pkg install curl
-sh -c "${curl -fsSL https://github.com/FaizBastomi/termux-fetish-download/raw/master/install.sh}"
+sh -c "$(curl -fsSL https://github.com/FaizBastomi/termux-fetish-download/raw/master/install.sh)"
 ```
 
 ---
