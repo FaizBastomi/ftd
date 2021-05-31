@@ -1,4 +1,4 @@
-const { random, download } = require('./utils')
+const { random, download, normalize } = require('./utils')
 const readline = require('readline')
 const moment = require('moment-timezone')
 const fs = require('fs')
@@ -46,7 +46,7 @@ const searchImage = async function(query, total) {
     for (let s = 0; s < jum; s++) {
         const res = await fetch(`https://meme-api.herokuapp.com/gimme/${encodeURIComponent(query)}`).catch(console.error)
         let { url, title } = await res.json()
-        title = title.replace(/[/|;:><]/gi, '')
+        title = normalize(title)
 
         const data = await download(url)
         let { ext } = await Filetype.fromBuffer(data)
