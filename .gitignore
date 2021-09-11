@@ -9,3 +9,7 @@ media/*.jpg
 # Test Files
 tes.js
 tes-*.js
+
+# Lock Files
+*-lock.json
+*.lock
