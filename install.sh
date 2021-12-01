@@ -5,7 +5,7 @@ NC='\033[0m'
 
 echo "Updating, upgrading and installing needed termux package..."
 
-pkg update && pkg upgrade -y
+pkg update -y
 pkg install git nodejs -y
 clear
 
@@ -14,7 +14,7 @@ git clone https://github.com/FaizBastomi/termux-fetish-download.git "ftd" --dept
 cd ftd
 
 echo -e "${GRN}Now npm will install the needed modules${NC}"
-npm install --quiet --no-progress
+npm install --silent
 rm install.sh
 
-echo "${GRN}All done. Now type ${CY}'cd ftd'${GRN} then ${CY}'npm start'${NC}"
+echo -e "${GRN}All done. Now type ${CY}'cd ftd'${GRN} then ${CY}'npm start'${NC}"
